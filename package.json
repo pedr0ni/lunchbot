@@ -1,0 +1,34 @@
+{
+  "name": "lunchbot",
+  "version": "1.0.0",
+  "description": "A Slack bot organize the Lunch Time!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedr0ni/lunchbot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "lunch",
+    "lunchbot",
+    "slackbot"
+  ],
+  "author": "M. Pedroni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedr0ni/lunchbot/issues"
+  },
+  "homepage": "https://github.com/pedr0ni/lunchbot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
